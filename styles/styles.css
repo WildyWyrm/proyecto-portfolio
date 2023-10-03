@@ -28,7 +28,6 @@ html {
     --c_blue300 : hsla(189, 75%, 75%, 1);
     --c_blue200 : hsla(190, 76%, 82%, 1);
     --c_blue100 : hsla(190, 77%, 88%, 1);
-
 }
 
 * {
@@ -163,7 +162,7 @@ p { font-size: 1rem; }
 .main {
     grid-area : Main ;
 
-/*     background-color: var( --c_grey100 ); */
+/*  background-color: var( --c_grey100 ); */
     background-image: url("/images/bg0.jpg");
     background-position: center;
     background-size: cover;
@@ -200,7 +199,6 @@ p { font-size: 1rem; }
     flex-flow: column nowrap ;
     align-items: center;
     gap : 2rem ;
-
     margin-top: 3rem;
 }
 
